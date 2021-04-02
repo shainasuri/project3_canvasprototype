@@ -1,10 +1,15 @@
 html, body {
     background-color: rgb(122, 13, 13);
 }
+* {box-sizing: border-box;}
+
+.container {
+margin: 0 33vw;
+}
 .wrapper {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
-    max-width: 54%;
+    max-width: 100%;
 }
 
 .toolbar {
@@ -33,8 +38,8 @@ html, body {
 
 #my-canvas {
     background-color: seashell;
-    border: 5px solid  rgb(196, 154, 108);
-    width: 98%;
+    border: 2px solid  rgb(196, 154, 108);
+    width: 100%;
 }
 
 button {
