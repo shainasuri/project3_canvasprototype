@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Canvas Prototype</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="toolbar">
+            <a href="#" class="tool" href="#" id="open" onclick="openImage()">
+                <img src="./images/open.png">
+            </a>
+            <a href="#" class="tool" id="save" onclick="saveImage()">
+                <img src="./images/save.png">
+            </a>
+            <a href="#" class="selected tool" id="brush" onclick="changeTool('brush')">
+                <img src="./images/brush.png">
+            </a>
+            <a href="#" class="tool" id="line" onclick="changeTool('line')">
+                <img src="./images/line.png">
+            </a>
+            <a href="#" class="tool" id="rectangle" onclick="changeTool('rectangle')">
+                <img src="./images/rectangle.png">
+            </a>
+            <a href="#" class="tool" id="circle" onclick="changeTool('circle')">
+                <img src="./images/circle.png">
+            </a>
+            <a href="#" class="tool" id="ellipse" onclick="changeTool('ellipse')">
+                <img src="./images/ellipse.png">
+            </a>
+            <a href="#" class="tool" id="polygon" onclick="changeTool('polygon')">
+                <img src="./images/polygon.png">
+            </a>
+        </div>
+
+        <canvas id="my-canvas" width="400" height="400"></canvas>
+
+        <button id="img-data-div">
+            <a href="#" id="img-file" download="apple.png">Download Your Apple!</a>
+        </button>
+
+    </div>
+
+</body>
+</html>

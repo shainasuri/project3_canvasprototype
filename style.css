@@ -1,0 +1,49 @@
+html, body {
+    background-color: rgb(122, 13, 13);
+}
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 54%;
+}
+
+.toolbar {
+    background-color: rgb(122, 13, 13);
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    margin-top: 5rem;
+    width: 100%;
+
+}
+
+.toolbar a {
+    text-align: center;
+    transition: all 0.5s ease;
+    width: 10%;
+}
+
+.toolbar a:hover {
+    background-color:rgb(51, 32, 16);
+}
+
+.selected {
+    background-color:rgb(51, 32, 16);
+}
+
+#my-canvas {
+    background-color: seashell;
+    border: 5px solid  rgb(196, 154, 108);
+    width: 98%;
+}
+
+button {
+    max-width: 200px;
+    height: 50px;
+    width: 50%;
+}
+
+.toolbar a img {
+    height: auto;
+    max-width: 100%;
+}
